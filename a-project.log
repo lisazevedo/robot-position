@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.10.1)  2 OCT 2020 13:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.10.1)  2 OCT 2020 13:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/le4o/Documents/Github/robot-position/a-project.tex
-(/home/le4o/Documents/Github/robot-position/a-project.tex
+**/home/lis/repositories/robot-position/a-project.tex
+(/home/lis/repositories/robot-position/a-project.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(/home/le4o/Documents/Github/robot-position/Classes/a-prj.cls
+(/home/lis/repositories/robot-position/Classes/a-prj.cls
 Document Class: Classes/a-prj 2017/10/31 v1.0.5
 ------------------------------------------------------------
 Esta classe LaTeX está de acordo com os requerimentos do 
@@ -872,7 +872,7 @@ Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 
 Writing index file a-project.idx
 \c@theorem=\count141
-(/home/le4o/Documents/Github/robot-position/a-project.aux (/home/le4o/Documents/Github/robot-position/Others/FolhaRosto.aux) (/home/le4o/Documents/Github/robot-position/Chapters/introducao.aux) (/home/le4o/Documents/Github/robot-position/Chapters/fundamentos.aux) (/home/le4o/Documents/Github/robot-position/Chapters/conclusao.aux) (/home/le4o/Documents/Github/robot-position/Others/ultimafolha.aux))
+(/home/lis/repositories/robot-position/a-project.aux (/home/lis/repositories/robot-position/Others/FolhaRosto.aux) (/home/lis/repositories/robot-position/Chapters/introducao.aux) (/home/lis/repositories/robot-position/Chapters/fundamentos.aux) (/home/lis/repositories/robot-position/Chapters/conclusao.aux) (/home/lis/repositories/robot-position/Others/ultimafolha.aux))
 \openout1 = `a-project.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 140.
@@ -933,7 +933,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 140.
 LaTeX Info: Redefining \pageref on input line 140.
 LaTeX Info: Redefining \nameref on input line 140.
- (/home/le4o/Documents/Github/robot-position/a-project.out) (/home/le4o/Documents/Github/robot-position/a-project.out)
+ (/home/lis/repositories/robot-position/a-project.out) (/home/lis/repositories/robot-position/a-project.out)
 \@outlinefile=\write4
 \openout4 = `a-project.out'.
 
@@ -996,10 +996,10 @@ Package pdftex.def Info: Figures/logo-senai-cimatec.png  used on input line 172.
 (pdftex.def)             Requested size: 223.44783pt x 48.98586pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/le4o/Documents/Github/robot-position/Figures/logo-senai-cimatec.png>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/lis/repositories/robot-position/Figures/logo-senai-cimatec.png>]
 \openout2 = `Others/FolhaRosto.aux'.
 
- (/home/le4o/Documents/Github/robot-position/Others/FolhaRosto.tex
+ (/home/lis/repositories/robot-position/Others/FolhaRosto.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--14
 
  []
@@ -1059,7 +1059,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--55
 ]
 \openout2 = `Chapters/introducao.aux'.
 
- (/home/le4o/Documents/Github/robot-position/Chapters/introducao.tex
+ (/home/lis/repositories/robot-position/Chapters/introducao.tex
 Cap\'{\i }tulo 1.
 ) [3
 
@@ -1068,7 +1068,7 @@ Cap\'{\i }tulo 1.
 ]
 \openout2 = `Chapters/fundamentos.aux'.
 
- (/home/le4o/Documents/Github/robot-position/Chapters/fundamentos.tex
+ (/home/lis/repositories/robot-position/Chapters/fundamentos.tex
 Cap\'{\i }tulo 2.
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 45.
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
@@ -1087,13 +1087,13 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 ]) [5] [6]
 \openout2 = `Chapters/conclusao.aux'.
 
- (/home/le4o/Documents/Github/robot-position/Chapters/conclusao.tex
+ (/home/lis/repositories/robot-position/Chapters/conclusao.tex
 Cap\'{\i }tulo 3.
 ) [7
 
 
 
-] (/home/le4o/Documents/Github/robot-position/a-project.bbl (/home/le4o/Documents/Github/robot-position/a-project.brf)
+] (/home/lis/repositories/robot-position/a-project.bbl (/home/lis/repositories/robot-position/a-project.brf)
 \tf@brf=\write5
 \openout5 = `a-project.brf'.
 
@@ -1107,13 +1107,13 @@ Cap\'{\i }tulo 3.
 No file Others/ultimafolha.tex.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
-(/home/le4o/Documents/Github/robot-position/a-project.aux (/home/le4o/Documents/Github/robot-position/Others/FolhaRosto.aux) (/home/le4o/Documents/Github/robot-position/Chapters/introducao.aux) (/home/le4o/Documents/Github/robot-position/Chapters/fundamentos.aux) (/home/le4o/Documents/Github/robot-position/Chapters/conclusao.aux) (/home/le4o/Documents/Github/robot-position/Others/ultimafolha.aux))
+(/home/lis/repositories/robot-position/a-project.aux (/home/lis/repositories/robot-position/Others/FolhaRosto.aux) (/home/lis/repositories/robot-position/Chapters/introducao.aux) (/home/lis/repositories/robot-position/Chapters/fundamentos.aux) (/home/lis/repositories/robot-position/Chapters/conclusao.aux) (/home/lis/repositories/robot-position/Others/ultimafolha.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 222.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 222.
 Package rerunfilecheck Info: File `a-project.out' has not changed.
 (rerunfilecheck)             Checksum: 515F20C95ED9CFE8D19A4C5F10A24505;403.
 Package rerunfilecheck Info: File `a-project.brf' has not changed.
-(rerunfilecheck)             Checksum: 92ACC2511BD124BB4737775E803F264E;91.
+(rerunfilecheck)             Checksum: 74B71D9970798677260E4D95A4B316F1;173.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1122,17 +1122,17 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 222.
  ) 
 Here is how much of TeX's memory you used:
  12271 strings out of 492982
- 184887 string characters out of 6134896
- 421626 words of memory out of 5000000
+ 184639 string characters out of 6134896
+ 421625 words of memory out of 5000000
  15482 multiletter control sequences out of 15000+600000
  39027 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,11n,45p,635b,541s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,11n,45p,630b,541s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on /home/le4o/Documents/Github/robot-position/a-project.pdf (8 pages, 186527 bytes).
+Output written on /home/lis/repositories/robot-position/a-project.pdf (8 pages, 186464 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  18 named destinations out of 1000 (max. 500000)
  11326 words of extra memory for PDF output out of 12000 (max. 10000000)
 
