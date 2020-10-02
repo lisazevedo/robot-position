@@ -1,57 +1,68 @@
 \chapter{Fundamentação Teórica}
 \label{chap:fundteor}
 
-\begin{flushright}
+% \begin{flushright}
 
-   \begin{list}{}{
-      \setlength{\leftmargin}{4.5cm}
-      \setlength{\rightmargin}{0cm}
-      \setlength{\labelwidth}{0pt}
-      \setlength{\labelsep}{\leftmargin}}
-      \item Quanto maior for a rapidez de transformação de uma
-      sociedade, mais temporárias são as necessidades
-      individuais. Essas flutuaçõess tornam ainda mais acelerado
-      o senso de turbilh da sociedade.
+%    \begin{list}{}{
+%       \setlength{\leftmargin}{4.5cm}
+%       \setlength{\rightmargin}{0cm}
+%       \setlength{\labelwidth}{0pt}
+%       \setlength{\labelsep}{\leftmargin}}
+%       \item Quanto maior for a rapidez de transformação de uma
+%       sociedade, mais temporárias são as necessidades
+%       individuais. Essas flutuaçõess tornam ainda mais acelerado
+%       o senso de turbilh da sociedade.
 
-      \begin{list}{}{
-      \setlength{\leftmargin}{0cm}
-      \setlength{\rightmargin}{0cm}
-      \setlength{\labelwidth}{0pt}
-      \setlength{\labelsep}{\leftmargin}}
-      \item (Alvin Toffler)
-      \end{list}
-   \end{list}
-\end{flushright}
+%       \begin{list}{}{
+%       \setlength{\leftmargin}{0cm}
+%       \setlength{\rightmargin}{0cm}
+%       \setlength{\labelwidth}{0pt}
+%       \setlength{\labelsep}{\leftmargin}}
+%       \item (Alvin Toffler)
+%       \end{list}
+%    \end{list}
+% \end{flushright}
 
-\begin{flushright}
-  Quanto maior for a rapidez de transformação de uma \\
-  sociedade, mais temporárias são as necessidades \\
-  individuais. Essas flutuações tornam ainda mais \\
-  acelerado o senso de turbilhão da sociedade. \\
-  \ \\
-  (Alvin Toffler)
-\end{flushright}
-
-%--------- NEW SECTION ----------------------
-\section{Estudo do estado da arte}
-\label{sec:sota}
-\lipsum[1]
-
-%---------------picture------------------------------------
-\begin{figure} [h!]												 
-	\centering													 
-	\includegraphics[width=0.6\textwidth]{./lq}				 
-	\caption{Insufficient data.}		
-	\label{img:ihuma}												 
-\end{figure}													 
-%----------------------------------------------------------
+% \begin{flushright}
+%   Quanto maior for a rapidez de transformação de uma \\
+%   sociedade, mais temporárias são as necessidades \\
+%   individuais. Essas flutuações tornam ainda mais \\
+%   acelerado o senso de turbilhão da sociedade. \\
+%   \ \\
+%   (Alvin Toffler)
+% \end{flushright}
 
 %--------- NEW SECTION ----------------------
-\section{Assunto 1}
+\section{Estudo da Odometria}
+Informações relacionadas a localização são essenciais em diversas aplicações relacionadas à robótica móvel nos dias atuais. Determinar a posição em um ambiente, dado um mapa daquele ambiente e dados sensoriais locais, pode ser a definição de localização para um robô móvel. Isto foi um dos grandes problemas passados na área de robótica e ainda nos tempos atuais é um campo de bastante estudo.
+Como uma das possíveis soluções para este problema, foi apresentado o cálculo baseado em medidas odométricas. Odometria nada mais é que o uso de dados capturados por sensores de movimento e assim então estimar mudança de posição com o tempo. É altamente usada na robótica por alguns robôs com rodas ou legados para estimar sua posição relativa de um ponto de partida. Entretanto, para um uso efetivo desta tecnologia é necessário uma captura rápida e precisa de dados, calibração de instrumentos e processamento.
+
+Um sensor interessante para captura de dados como velocidade e posição é o sensor de WiFi. Um exemplo prático foram pesquisadores da Universidade da Carolina do Norte desenvolveram um meio para capturar a velocidade e distância em ambientes indoor através de um sensor WiFi. Este sensor funciona como um sensor de velocidade para assim rastrear com precisão o quão longe algo se moveu; exatamente como um sonar mas usando ondas de rádio ao invés de ondas de som.
+
+
+\begin{itemize}
+
+    \item \textbf{Trilateração}: métodos que utilizam as propriedades geométricas do triângulo para encontrar a posição do alvo. Diferente da triangulação, este processo determina o posicionamento a partir de 3 pontos de referência diferentes, assim como acontece em sistemas de GPS(Global Positioning System). Podem ser divididos em métodos por lateração e angulação.;
+    
+    \begin{itemize}
+        \item \textbf{Lateração} estima a posição do objeto através da leitura de distâncias a partir de múltiplos pontos de referência.
+        
+        \begin{itemize}
+            \item \textbf{-TOA (Time Of Arrival)}: a distância do alvo móvel até a unidade medidora
+            é diretamente proporcional ao tempo de propagação; 
+            \item \textbf{TDOA (Time Difference Of Arrival)}: este método busca determinar a posição relativa do transmissor através da diferença de tempo entre o envio até as unidades recptoras.
+            \item \textbf{Baseadas em RSS (Received Signal Strength)}: método que calcula a distância baseada na atenuação da força do sinal entre o emissor e o receptor. Os métodos baseados em RSS, assim como os dois anteriores necessitam da inexistência de obstáculos físicos entre os participantes da conversa.
+            \item \textbf{RTOF (Reflection Time Of Flight)}: este método utiliza do valor de Time of Flight, ou tempo de voo do sinal, para estimar a posição. O tempo de voo do sinal 
+        \end{itemize}
+
+    \end{itemize}
+
+\end{itemize}
+
+%--------- NEW SECTION ----------------------
+\section{Aplicação na Robótica}
 \label{sec:ass1}
 \lipsum[1]
-
-
 
 %---------------picture------------------------------------
 % \begin{figure}
@@ -64,72 +75,3 @@
 % \end{figure}
 %----------------------------------------------------------
 
-\begin{figure}
-    \centering
-    \begin{subfigure}[b]{0.3\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{./lq}
-        \caption{$y=x$}
-        \label{fig:y equals x}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.3\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{./lq}
-        \caption{$y=3sinx$}
-        \label{fig:three sin x}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.3\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{./lq}
-        \caption{$y=5/x$}
-        \label{fig:five over x}
-    \end{subfigure}
-       \caption{Three simple graphs}
-       \label{fig:three graphs}
-\end{figure}
-
-
-%--------- NEW SECTION ----------------------
-\section{Assunto 2}
-\label{sec:ass2}
-flkjasdlkfjasdlkfjs
-
-\begin{table}[h]
-    \begin{subtable}[h]{0.45\textwidth}
-        \centering
-        \begin{tabular}{l | l | l}
-        Day & Max Temp & Min Temp \\
-        \hline \hline
-        Mon & 20 & 13\\
-        Tue & 22 & 14\\
-        Wed & 23 & 12\\
-        Thurs & 25 & 13\\
-        Fri & 18 & 7\\
-        Sat & 15 & 13\\
-        Sun & 20 & 13
-       \end{tabular}
-       \caption{First Week}
-       \label{tab:week1}
-    \end{subtable}
-    \hfill
-    \begin{subtable}[h]{0.45\textwidth}
-        \centering
-        \begin{tabular}{l | l | l}
-        Day & Max Temp & Min Temp \\
-        \hline \hline
-        Mon & 17 & 11\\
-        Tue & 16 & 10\\
-        Wed & 14 & 8\\
-        Thurs & 12 & 5\\
-        Fri & 15 & 7\\
-        Sat & 16 & 12\\
-        Sun & 15 & 9
-        \end{tabular}
-        \caption{Second Week}
-        \label{tab:week2}
-     \end{subtable}
-     \caption{Max and min temps recorded in the first two weeks of July}
-     \label{tab:temps}
-\end{table}
