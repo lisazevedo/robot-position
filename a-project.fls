@@ -246,6 +246,7 @@ INPUT /home/le4o/Documents/Github/robot-position/a-project.brf
 INPUT /home/le4o/Documents/Github/robot-position/a-project.brf
 INPUT /home/le4o/Documents/Github/robot-position/a-project.brf
 OUTPUT /home/le4o/Documents/Github/robot-position/a-project.brf
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri12.tfm
 OUTPUT /home/le4o/Documents/Github/robot-position/Others/ultimafolha.aux
 INPUT /home/le4o/Documents/Github/robot-position/a-project.aux
 INPUT /home/le4o/Documents/Github/robot-position/Others/FolhaRosto.aux
@@ -262,10 +263,11 @@ INPUT /home/le4o/Documents/Github/robot-position/a-project.out
 INPUT /home/le4o/Documents/Github/robot-position/a-project.out
 INPUT /home/le4o/Documents/Github/robot-position/a-project.brf
 INPUT /home/le4o/Documents/Github/robot-position/a-project.brf
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbxo10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmri12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb

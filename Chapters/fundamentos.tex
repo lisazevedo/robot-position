@@ -38,7 +38,7 @@ Informações relacionadas a localização são essenciais em diversas aplicaç�
 Como uma das possíveis soluções para este problema, foi apresentado o cálculo baseado em medidas odométricas. Odometria nada mais é que o uso de dados capturados por sensores de movimento e assim então estimar mudança de posição com o tempo. É altamente usada na robótica por alguns robôs com rodas ou legados para estimar sua posição relativa de um ponto de partida. Entretanto, para um uso efetivo desta tecnologia é necessário uma captura rápida e precisa de dados, calibração de instrumentos e processamento.
 
 Um sensor interessante para captura de dados como velocidade e posição é o sensor de WiFi. Um exemplo prático foram pesquisadores da Universidade da Carolina do Norte desenvolveram um meio para capturar a velocidade e distância em ambientes indoor através de um sensor WiFi. Este sensor funciona como um sensor de velocidade para assim rastrear com precisão o quão longe algo se moveu; exatamente como um sonar mas usando ondas de rádio ao invés de ondas de som.
-
+\cite{Diego2016}
 
 \begin{itemize}
 
@@ -48,16 +48,28 @@ Um sensor interessante para captura de dados como velocidade e posição é o se
         \item \textbf{Lateração} estima a posição do objeto através da leitura de distâncias a partir de múltiplos pontos de referência.
         
         \begin{itemize}
-            \item \textbf{-TOA (Time Of Arrival)}: a distância do alvo móvel até a unidade medidora
+            \item \textbf{TOA (Time Of Arrival)}: a distância do alvo móvel até a unidade medidora
             é diretamente proporcional ao tempo de propagação; 
             \item \textbf{TDOA (Time Difference Of Arrival)}: este método busca determinar a posição relativa do transmissor através da diferença de tempo entre o envio até as unidades recptoras.
             \item \textbf{Baseadas em RSS (Received Signal Strength)}: método que calcula a distância baseada na atenuação da força do sinal entre o emissor e o receptor. Os métodos baseados em RSS, assim como os dois anteriores necessitam da inexistência de obstáculos físicos entre os participantes da conversa.
             \item \textbf{RTOF (Reflection Time Of Flight)}: este método utiliza do valor de Time of Flight, ou tempo de voo do sinal, para estimar a posição. O tempo de voo do sinal 
+            \item \textbf{RSP (Received Signal Phase)}: utiliza a diferença de fase no sinal das portadoras (de telefonia, por exemplo) para estimar a posição.
         \end{itemize}
+
+        \item \textbf{Angulação}: estima a posição do alvo através da interseção de vários pares de
+        ângulos das linhas de direção. Cada linha é formada pelo raio do círculo de alcance
+        do sinal partindo da estação base ao receptor móvel.
 
     \end{itemize}
 
+    \item \textbf{Análise de Cenário}: refere-se aos métodos que primeiro recuperam características do sinal de Wi-Fi no ambiente e depois estimam a localização de um objeto através da relação da informação do sinal atual junto ao sinal adquirido anteriormente. 
+
 \end{itemize}
+
+A complexidade das iterações do sinal de Wi-Fi em ambientes fechados favorece a utilização dos métodos baseados em mapas, orientados por dados de intensidade do sinal.
+Deixando a utilização da odometria por Wi-Fi menos optável. Biswas e Veloso propôem um método onde a posição é estimada em um processo de duas etapas. Chamados de fase de aprendizado e fase de localização.
+A primeira define-se como a construção de um mapa na forma de um grafo, onde cada vértice armazena um conjunto de médias e desvios padão das forças do sinal de cada ponto de acesso Wi-Fi mensurada naquela posição e cada aresta do mapa representa um caminho possível para movimentação do robô.
+E a segunda, utiliza um algoritmo que se baseia em filtro de partículas para a obtenção da posição do robô, relacionando as medições do sinal Wi-Fi recebido durante a movimentação com os valores previamente populados no mapa.\cite{Biswas2010}
 
 %--------- NEW SECTION ----------------------
 \section{Aplicação na Robótica}

@@ -5,4 +5,16 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Biswas 2010]{Biswas2010}
+\abntrefinfo{Biswas}{BISWAS}{2010}
+{BISWAS, M. M.~V. J. Wifi localization and navigation for autonomous indoor
+  mobile robots.
+\emph{IEEE International Conference on Robotics and Automation}, ICRA, v.~104,
+  2010.}
+
+\bibitem[Rocha 2016]{Diego2016}
+\abntrefinfo{Rocha}{ROCHA}{2016}
+{ROCHA, D.~P. \emph{Sistema de localização para Cellbots integrando odometria
+  visual monocular e força de sinal WiFi}. 2016.}
+
 \end{thebibliography}

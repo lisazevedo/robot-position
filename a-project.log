@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.10.1)  2 OCT 2020 12:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.10.1)  2 OCT 2020 13:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1084,12 +1084,12 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 
 
 
-]) [5]
+]) [5] [6]
 \openout2 = `Chapters/conclusao.aux'.
 
  (/home/le4o/Documents/Github/robot-position/Chapters/conclusao.tex
 Cap\'{\i }tulo 3.
-) [6
+) [7
 
 
 
@@ -1097,11 +1097,7 @@ Cap\'{\i }tulo 3.
 \tf@brf=\write5
 \openout5 = `a-project.brf'.
 
-
-
-LaTeX Warning: Empty `thebibliography' environment on input line 8.
-
-) [7
+) [8
 
 
 ]
@@ -1117,22 +1113,26 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 222.
 Package rerunfilecheck Info: File `a-project.out' has not changed.
 (rerunfilecheck)             Checksum: 515F20C95ED9CFE8D19A4C5F10A24505;403.
 Package rerunfilecheck Info: File `a-project.brf' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 92ACC2511BD124BB4737775E803F264E;91.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 222.
  ) 
 Here is how much of TeX's memory you used:
- 12223 strings out of 492982
- 184256 string characters out of 6134896
- 420339 words of memory out of 5000000
- 15456 multiletter control sequences out of 15000+600000
- 33832 words of font info for 46 fonts, out of 8000000 for 9000
+ 12271 strings out of 492982
+ 184887 string characters out of 6134896
+ 421626 words of memory out of 5000000
+ 15482 multiletter control sequences out of 15000+600000
+ 39027 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,11n,45p,635b,541s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on /home/le4o/Documents/Github/robot-position/a-project.pdf (7 pages, 164190 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
+Output written on /home/le4o/Documents/Github/robot-position/a-project.pdf (8 pages, 186527 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 9278 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 112 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 11326 words of extra memory for PDF output out of 12000 (max. 10000000)
 
